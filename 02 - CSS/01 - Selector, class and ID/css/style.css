@@ -1,0 +1,18 @@
+body {
+    background-color: blue;
+}
+
+p {
+    color: white;
+    font-size: 30px;
+}
+
+.parra {
+    color: yellow;
+    font-size: 50px;
+}
+
+#parraf {
+    color: cyan;
+    font-size: 100px;
+}

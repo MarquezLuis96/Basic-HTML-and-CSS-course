@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background-color: blue;
+}
+
+section {
+    width: 80vw;
+    min-width: 320px;
+    max-width: 500px;
+    min-height: 500px;
+    margin: 0 auto;
+    background-color: yellow;
+    font-size: 1.6rem;
+}

@@ -9,7 +9,7 @@ html {
 }
 
 .parent {
-    border: 2px black dotted;
+    border: 2px dotted black ;
     display: inline-block;
 }
 

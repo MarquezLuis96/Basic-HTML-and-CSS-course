@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+ }
+
+.box-elements {
+    width: fit-content;
+    height: fit-content;
+    margin: 10px;
+    padding: 10px;
+    border: 1px dashed #000000;
+}
+
+.box-elements_box {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    margin: 2.5px;
+    color: white;
+}
+
+.block {
+    display: block;
+}
+
+.inline {
+    display: inline;
+}
+
+.inline-block {
+    display: inline-block;
+}

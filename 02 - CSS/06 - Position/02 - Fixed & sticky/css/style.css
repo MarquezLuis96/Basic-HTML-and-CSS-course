@@ -10,7 +10,7 @@ html {
 
 body {
     margin-bottom: 1000px;
-    overflow: auto;
+    overflow: visible;
 }
 
 .box-container {
@@ -63,4 +63,18 @@ body {
     position: fixed;
     top: 4px;
     left: 315px;
+}
+
+.sticky {
+    background-color: cyan;
+    border: 2px dashed #000000;
+    opacity: 0.6;
+    color: white;
+    margin-top: 120px;
+    font-size: 2rem;
+    width: 500px;
+    height: 250px;
+    position: -webkit-sticky;
+    position:sticky;
+    top: 0;
 }

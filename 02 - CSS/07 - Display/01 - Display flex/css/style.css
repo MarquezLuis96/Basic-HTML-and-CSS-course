@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    margin-bottom: 1024px;
+}
+
+.container {
+    display: flex;
+    border: 0.3rem solid #000000;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 10rem;
+    height: 10rem;
+}
+
+.box1 {
+    background-color: yellow;
+}
+
+.box2 {
+    background-color: magenta;
+}
+
+.box3 {
+    background-color: cyan;
+}
+
+.box4 {
+    background-color: midnightblue;
+}
+
+.box5 {
+    background-color: salmon;
+}
+
+.box6 {
+    background-color: violet;
+}

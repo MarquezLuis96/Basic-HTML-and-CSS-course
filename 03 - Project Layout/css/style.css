@@ -22,6 +22,7 @@ body {
 
 .header {
     display: flex;
+    position: relative;
     background-color: #42966E;
     color: #FFFFFF;
     justify-content: space-between;
@@ -65,6 +66,27 @@ body {
     color: #FFFFFF;
     height: inherit;
     padding: 0 10px;
+}
+
+.hero {
+    position: relative;
+    height: 86.2vh;
+    background-image: url(../img/cathy-vanheest-nXvCHgkwKI4-unsplash.jpg);
+    background-repeat: repeat-x;
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+}
+
+.main-section {
+    position: relative;
+    height: 100vh;
+    background-color: #E2E2E2;
+}
+
+footer {
+    height: 5rem;
+    background-image: url(../img/gavin-mcgruddy-p23YJJMT16s-unsplash.jpg);
 }
 
 .container {

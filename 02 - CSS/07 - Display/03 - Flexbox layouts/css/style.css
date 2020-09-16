@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    margin-bottom: 1024px;
+}
+
+.container {
+    border: 0.3rem solid #000000;
+    display: flex;
+    flex-wrap: wrap;
+    /*
+    align-items: center;
+    height: 50vh;*/
+}
+
+.box {
+    /* width: 10rem; */
+    height: 10rem;
+    flex-basis: 10rem;
+    flex-grow: 1;
+}
+
+.box1 {
+    background-color: yellow;
+}
+
+.box2 {
+    background-color: magenta;
+}
+
+.box3 {
+    background-color: cyan;
+}
+
+.box4 {
+    background-color: midnightblue;
+}
+
+.box5 {
+    background-color: salmon;
+}
+
+.box6 {
+    background-color: violet;
+}
